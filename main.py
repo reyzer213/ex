@@ -6,7 +6,7 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from passlib.context import CryptContext
-
+import requests
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
 
